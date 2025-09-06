@@ -79,5 +79,5 @@ jobs:
       uses: actions/upload-artifact@v4.6.2
       if: always()
       with:
-        name: Chrome Robot Report
+        name: Firefox Robot Report
         path: logs
